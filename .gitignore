@@ -2,6 +2,9 @@
 # NPM packages folder.
 node_modules
 
+#pycharm
+__pycache__/
+
 # Build files
 dist/
 
