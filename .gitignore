@@ -2,6 +2,9 @@
 .env
 .DS_Store
 
+# jupyter
+.ipynb_checkpoints/
+
 # NPM packages folder.
 node_modules
 
