@@ -1,6 +1,6 @@
 
 import sqlite3
-from pydantic.v1 import BaseModel
+from pydantic import BaseModel
 from typing import List
 from langchain.tools import Tool
 

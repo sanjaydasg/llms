@@ -1,0 +1,9 @@
+{
+    "python.terminal.executeInFileDir": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    }
+}

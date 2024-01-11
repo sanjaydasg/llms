@@ -1,5 +1,5 @@
 from langchain.tools import StructuredTool
-from pydantic.v1 import BaseModel
+from pydantic import BaseModel
 
 def write_report(filename, html):
 	with open(filename, 'w') as f:

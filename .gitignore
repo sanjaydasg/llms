@@ -1,6 +1,8 @@
 .venv
 .env
 .DS_Store
+.vscode/
+*.bin
 
 # jupyter
 .ipynb_checkpoints/

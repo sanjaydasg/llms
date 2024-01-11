@@ -1,12 +1,10 @@
 
+from dotenv import load_dotenv
 from langchain.document_loaders import TextLoader
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores.chroma import Chroma
 
-import argparse
-
-from dotenv import load_dotenv
 load_dotenv()
 
 # find relevant facts
@@ -24,7 +22,6 @@ loader = TextLoader("facts.txt")
 docs = loader.load_and_split(
 		text_splitter=text_splitter)
 
-
 db = Chroma.from_documents(
 	docs,
 	embedding=embeddings,
@@ -38,3 +35,5 @@ for result in results:
 	print("\n")
 	print(result[1])
 	print(result[0].page_content)
+
+
