@@ -35,5 +35,3 @@ for result in results:
 	print("\n")
 	print(result[1])
 	print(result[0].page_content)
-
-
